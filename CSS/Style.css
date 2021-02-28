@@ -48,7 +48,7 @@
 .container{
   font-family: inherit;
   text-align: center;
-  padding-top: 38px;
+  padding-top: 28px;
 
 }
 #dos{
@@ -99,6 +99,7 @@
 }
 #design{
   float: left;
+  
 }
 #design:hover{
   background-color:ivory;
@@ -148,11 +149,14 @@ input[type=email],[type=text]{
 }
 footer{
   text-align: center;
-  padding-top: 28px;
+  padding-top: 20px;
 
 }
 *{
   box-sizing: border-box;
+  /* padding:0%;
+  border-radius: 1%; */
+  margin: 2%;
 }
 .row1{
   display: flex;
