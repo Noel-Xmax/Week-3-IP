@@ -18,11 +18,14 @@
 #logo{
   margin-top: 12px;
   margin-bottom: 25px;
+  padding: 2%;
 }
 #mouse_click{
-  padding-top: 20px;
+  padding-top: 20%;
+  padding-bottom: 10%;
   margin-top: 10%;
-  padding-bottom: 28px;
+  margin-bottom: 15%;
+  border-bottom: 10%;
   animation: bounce 3s infinite;
 }
 .card-About{
@@ -39,7 +42,7 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  font-size: 18px;
+  font-size: 15px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .container{
@@ -54,27 +57,51 @@
 .card-portfolio{
   /* display: flex; */
   /* align-items: center; */
-  margin-left: 0%;
-  margin-right: 0%;
+  margin-left: 8%;
+  margin-right: 8%;
   /* flex-wrap: wrap; */
   align-items: center;
 }
 #portfolio{
   text-align: center;
+  align-items: center;
 }
 .column-md-3{
-  width: 15%;
-  height: 20%;
-  /* margin-left: 1px;
-  margin-right: 1px; */
+  /* /* width: 15%;
+  height: 20%; */
+  margin-left: 1px;
+  margin-right: 1px;
   position:relative;
-  padding: 1px;
+  padding: 1rem;
   margin-top: 5px;
   margin-bottom: 5px;
   margin-left: 5px;
   margin-right: 5px;
-  /* border-image: 15px; */
+  border-image: 15px;
+  width: 15%;
+  height: 20%;
+  /* float: right; */
 
+}
+.col-md-4{
+  position: relative;
+
+}
+#product{
+  float: right;
+  }
+  #product :hover{
+    background-color:ivory;
+    }
+
+#development:hover{
+  background-color:ivory;
+}
+#design{
+  float: left;
+}
+#design:hover{
+  background-color:ivory;
 }
 .Contact-Us{
   background-image: url(Backgrounds/c_image.jpg);
@@ -82,15 +109,16 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  text-align: center;
 
 }
 input[type=email],[type=text]{
   background: transparent;
   color: white;
   font-size: 22px;
-  font-family: inherit
-  padding: 2px;
+  font-family: inherit;
   margin-bottom : 12px;
+  padding-top: 2px;
 }
 #title{
   font-size: 20px;
@@ -125,4 +153,7 @@ footer{
 }
 *{
   box-sizing: border-box;
+}
+.row1{
+  display: flex;
 }
