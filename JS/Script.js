@@ -1,6 +1,8 @@
 $(document).ready(function(){
+
 $ ('.submit').click(function(event){  
   event.preventdefault();
+  function getMessage (){
   var name=document.getElementById("name").value;
   var email=document.getElementById("email").value;
   var name=document.getElementById("name").value;
@@ -10,6 +12,7 @@ $ ('.submit').click(function(event){
   }else{
     alert("Hello" + name +" have received your message. Thank you fro reaching out to us");
   }
+}
 });
 $('#desig').click(function(){
   $('#view1').toggle();
