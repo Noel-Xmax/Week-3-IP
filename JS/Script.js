@@ -1,18 +1,18 @@
 $(document).ready(function(){
 
-$ ('.submit').click(function(event){  
-  event.preventdefault();
-  function getMessage (){
-  var name=document.getElementById("name").value;
-  var email=document.getElementById("email").value;
-  var name=document.getElementById("name").value;
-  var message=document.getElementById("msg").value;
-  if (name=="" || email=="" || message==""){
-    alert("This fill in above detals");
-  }else{
+  // console.log("bdfdf")
+  $('form#contact-details').submit(function(event){  
+    event.preventDefault();
+    // console.log("fjfd")
+    var name= $("input#name").val();
+    var email= $("input#email").val();
+    var message= $("#msg").val();
+    console.log(name,email,message)
+    if (name=="" || email=="" || msg==""){
+      alert("Please fill in above detals");
+    }else{
     alert("Hello" + name +" have received your message. Thank you fro reaching out to us");
   }
-}
 });
 $('#desig').click(function(){
   $('#view1').toggle();
