@@ -19,7 +19,7 @@ The page is a directory page with detail of what Delani Studio stands for, it's 
 * Javascript
 * Jquerry
 ## Support and contact details
-Please in case of technical hckups do not hesitate to reach me on xmaxnoel@gmail.com.
+Please in case of technical hickups do not hesitate to reach me on xmaxnoel@gmail.com.
 
 ### License
 MIT License
