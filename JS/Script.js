@@ -23,7 +23,10 @@ $('#dev').click(function(){
 $('#prod').click(function(){
   $('#view3').toggle();
 });
-
+$('.portfolio').click(function(){
+  $("col-md-3")fadeIn();
+  $("descp")fadeOut();
+  )};
 
 
 
