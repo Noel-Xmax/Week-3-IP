@@ -11,7 +11,7 @@ $(document).ready(function(){
     if (name=="" || email=="" || msg==""){
       alert("Please fill in above detals");
     }else{
-    alert("Hello" + name + " , we have received your message. Thank you fro reaching out to us.");
+    alert("Hello" + name + " , we have received your message. Thank you for reaching out to us.");
   }
 });
 $('#desig').click(function(){
