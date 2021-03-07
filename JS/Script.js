@@ -11,7 +11,7 @@ $(document).ready(function(){
     if (name=="" || email=="" || msg==""){
       alert("Please fill in above detals");
     }else{
-    alert("Hello" + name +" have received your message. Thank you fro reaching out to us");
+    alert("Hello" + name + " , we have received your message. Thank you fro reaching out to us.");
   }
 });
 $('#desig').click(function(){
@@ -24,9 +24,9 @@ $('#prod').click(function(){
   $('#view3').toggle();
 });
 $('.portfolio').click(function(){
-  $("col-md-3")fadeIn();
-  $("descp")fadeOut();
-  )};
+  $(".col-md-3");fadeIn();
+  $(".descp");fadeOut();
+});
 
 
 
